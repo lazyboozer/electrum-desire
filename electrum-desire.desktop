@@ -1,0 +1,17 @@
+# If you want electrum-desire to appear in a linux app launcher ("start menu"), install this by doing:
+# sudo desktop-file-install electrum_desire.desktop
+
+[Desktop Entry]
+Comment=Lightweight Desirepay Client
+Exec=electrum-desire %u
+GenericName[en_US]=Electrum-DSR
+GenericName=Electrum-DSR
+Icon=electrum-desire
+Name[en_US]=Electrum Desirepay Wallet
+Name=Electrum Desirepay Wallet
+Categories=Network;
+StartupNotify=false
+Terminal=false
+Type=Application
+MimeType=x-scheme-handler/desirepay;
+
